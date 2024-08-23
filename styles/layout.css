@@ -1,0 +1,51 @@
+/* Name: Anthony Margullis
+Date: 08/22/24
+File: layout.css
+Desc: To layout all shared pages */
+
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "image image vertical"
+    "horizontal horizontal horizontal"
+    "main main main"
+    "footer footer footer";
+}
+
+#logo {
+  grid-area: image;
+}
+
+.vertical {
+  grid-area: vertical;
+}
+
+.horizontal {
+  grid-area: horizontal;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.vertical li {
+  align-content: flex-start;
+  justify-content: flex-start;
+}

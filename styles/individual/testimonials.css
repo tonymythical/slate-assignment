@@ -1,0 +1,12 @@
+/* Name: Anthony Margullis
+Date: 08/22/24
+File: testimonials.css
+Desc: To style testimonial page */
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  place-items: column;
+  padding-left: 150px;
+}

@@ -1,0 +1,55 @@
+/* Name: Anthony Margullis
+Date: 08/22/24
+File: pricing.css
+Desc: To style pricing page */
+
+td {
+  border: solid black;
+  margin: 0 auto;
+}
+
+thead {
+  color: white;
+  background-color: rgb(0, 0, 36);
+  border: solid black;
+  margin: 0 auto;
+}
+
+table {
+  border: solid black;
+  padding: 0;
+  border-collapse: collapse;
+  width: 900px;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+  color: black;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+  color: black;
+}
+
+th {
+  background-color: rgb(0, 0, 36);
+  color: beige;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+aside {
+  border: black solid;
+  border-radius: 5px;
+  background-color: rgb(205, 205, 117);
+  color: black;
+  margin-right: 25px;
+}

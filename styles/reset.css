@@ -1,0 +1,24 @@
+/* Name: Anthony Margullis
+Date: 08/22/24
+File: reset.css
+Desc: To reset browser design */
+
+* {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
